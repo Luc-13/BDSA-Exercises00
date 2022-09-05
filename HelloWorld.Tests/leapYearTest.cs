@@ -17,4 +17,28 @@ public class leapYearTest
         resultTwo.Should().Be(false);
 
     }
+    /*
+    [Fact]
+    public void returns_yay_if_given_leap_year(){
+        var leap = new leapYear();
+
+        var result = leap.UserInput();
+        
+        var stringReader = new StringReader("1600");
+        Console.SetIn(stringReader);
+
+        result.Should().Be("yay");
+    }
+    [Fact]
+    public void returns_nay_if_given_non_leap_year(){
+        var leap = new leapYear();
+
+        var result = leap.UserInput();
+
+        var stringReader = new StringReader("1900");
+        Console.SetIn(stringReader);
+
+        result.Should().Be("nay");
+    }
+    */
 }
